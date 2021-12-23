@@ -29,7 +29,7 @@ public class bot {
             String linha = lerarq.readLine();
 
             while (linha != null) {
-                System.out.printf("Tweetando: %s\n", linha);
+                System.out.printf("Conteúdo do arquivo: %s\n", linha);
 
 
                 System.out.printf("Sleeping for 30 minutes...");
